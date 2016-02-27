@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">لامپ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_waiting">image is loading</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+	<string name="toast_crash">برق لامپ اتصالی پیدا کرده :( اگه به اینترنت وصل باشین به ما خبر میده</string>
+</resources>

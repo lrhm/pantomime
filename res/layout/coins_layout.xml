@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+  >
+
+    <RelativeLayout
+        android:id="@+id/coins_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ >
+  
+    <ImageView
+        android:id="@+id/coins_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+
+      </RelativeLayout>
+    
+</RelativeLayout>

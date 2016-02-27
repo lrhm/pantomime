@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irpulse.lamp.ListActivity" >
+
+    <LinearLayout
+        android:id="@+id/list_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/list_fragment_coin_cointainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+    <ImageView 
+        android:id="@+id/activity_list_loading_level_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+       
+
+</FrameLayout>
